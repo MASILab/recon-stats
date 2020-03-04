@@ -1,3 +1,5 @@
+This is just for Legacy Dax enviroment setup. There is a typo in the original github project. - SHUNXING
+
 recon-stats
 ===============
 
