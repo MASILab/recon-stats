@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     long_desc = open('README.md').read()
 
-    setup(name='recon-stats',
+    setup(name='recon-stats_ldax',
         author='Scott Burns',
         author_email='scott.s.burns@gmail.com',
         description='recon-stats is a simple package to parse stats'

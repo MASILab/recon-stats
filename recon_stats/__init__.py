@@ -9,7 +9,7 @@ A python package to parse statistics generated from recon-all
 """
 __author__ = 'Scott Burns <scott.s.burns@vanderbilt.edu>'
 __copyright__ = 'Copyright 2012 Vanderbilt University. All Rights Reserved'
-__version__ = '0.0.3'
+__version__ = '0.0.3.1'
 
 from .io import Parser, Measure
 from .core import Subject

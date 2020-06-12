@@ -1,4 +1,6 @@
-This is just for Legacy Dax enviroment setup. There is a typo in the original github project. - SHUNXING
+This is just for Legacy Dax enviroment setup. There is a typo in the original github project and the its no longer maintained. We forked the project to https://github.com/VUIIS/recon-stats, ldax branch.
+
+We change the package name to recon-stats\_ldax to release the code to pypi for easier tracking. 
 
 recon-stats
 ===============
