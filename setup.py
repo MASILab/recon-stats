@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__ = 'Scott Burns <scott.s.burns@vanderbilt.edu>'
+__author__ = 'Shunxing Bao <shunxing.bao@vanderbilt.edu>'
 
 import os
 from recon_stats import __version__
@@ -16,9 +16,8 @@ if __name__ == '__main__':
 
     setup(name='recon-stats_ldax',
         author='Scott Burns',
-        author_email='scott.s.burns@gmail.com',
-        description='recon-stats is a simple package to parse stats'
-                    ' files from Freesurfer\recon-all',
+        author_email='onealbao@gmail.com',
+        description='recon-stats-ldax is a simple package to parse stats files from Freesurfer recon-all',
         license='BSD (3-clause)',
         url='http://github.com/VUIIS/recon-stats',
         version=__version__,
