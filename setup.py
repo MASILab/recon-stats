@@ -14,18 +14,16 @@ if __name__ == '__main__':
     if os.path.exists('MANIFEST'):
         os.remove('MANIFEST')
 
-    long_desc = open('README.md').read()
-
     setup(name='recon-stats_ldax',
         author='Scott Burns',
         author_email='scott.s.burns@gmail.com',
         description='recon-stats is a simple package to parse stats'
                     ' files from Freesurfer\recon-all',
         license='BSD (3-clause)',
-        url='http://github.com/sburns/recon-stats',
+        url='http://github.com/VUIIS/recon-stats',
         version=__version__,
-        download_url='http://github.com/sburns/recon-stats',
-        long_description=long_desc,
+        download_url='http://github.com/VUIIS/recon-stats',
+        long_description='''The repo is an update fix version for sburns/recon-stats. The original repo seems to be no logner maintained.''',
         packages=find_packages(),
         platforms='any',
         classifiers=(

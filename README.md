@@ -1,11 +1,15 @@
-This is just for Legacy Dax enviroment setup. There is a typo in the original github project and the its no longer maintained. We forked the project to https://github.com/VUIIS/recon-stats, ldax branch.
+This is just for Legacy Dax enviroment setup. 
+There is a typo in the original github project and the its no longer maintained. 
+We forked the project to https://github.com/VUIIS/recon-stats, ldax branch.
 
-We change the package name to recon-stats\_ldax to release the code to pypi for easier tracking. 
+We change the package name to recon-stats_ldax to release the code to pypi for easier tracking. 
 
 recon-stats
 ===============
 
-Python package to parse stats from recon-all. Given a Freesurfer subject, this flattens all of the stats files into a single python dictionary. It'd be very easy to upload this dictionary to REDCap, for example.
+Python package to parse stats from recon-all. 
+Given a Freesurfer subject, this flattens all of the stats files into a single python dictionary. 
+It'd be very easy to upload this dictionary to REDCap, for example.
 
 Why?
 ----
@@ -37,7 +41,9 @@ response = p.import_records([data])
 
 Boom
 
-The above won't actually work until you've got all ~2655 fields in your REDCap data dictionary. Search for "Freesurfer Reconstruction Stats" in the Shared Library and download it into your project. Then you're good to go with the above.
+The above won't actually work until you've got all ~2655 fields in your REDCap data dictionary. 
+Search for "Freesurfer Reconstruction Stats" in the Shared Library and download it into your project.
+Then you're good to go with the above.
 
 
 Questions/Comments?
